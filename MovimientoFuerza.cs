@@ -12,7 +12,7 @@ public class MovimientoFuerza : MonoBehaviour {
     void Update() {
    
         float movimientoHorizontal = 0f;
-        float movimientoProfudidad = 0f;
+        float movimientoProfundidad = 0f;
 
         // Movimiento Horizontal
         if (Input.GetKey(KeyCode.D))
@@ -22,12 +22,12 @@ public class MovimientoFuerza : MonoBehaviour {
        
         // Movimiento Hacia adelante
         if (Input.GetKey(KeyCode.W))
-            movimientoProfudidad = 1f;
+            movimientoProfundidad = 1f;
         else if(Input.GetKey(KeyCode.S))
-            movimientoProfudidad = -1f;
+            movimientoProfundidad = -1f;
        
         //Calculamos la fuerza de Movimiento
-        Vector3 movimiento = new Vector3(movimientoHorizontal, 0f, movimientoProfudidad);
+        Vector3 movimiento = new Vector3(movimientoHorizontal, 0f, movimientoPronfudidad);
 
         // Aplicamos esa fuerza al RigidBody
         GetComponent<Rigidbody>().AddForce(movimiento * velocidad);
@@ -36,6 +36,5 @@ public class MovimientoFuerza : MonoBehaviour {
             transform.Translate(Vector3.up * alturaSalto * velocidadSalto * Time.deltaTime);
         }
     }
-
 
 }
