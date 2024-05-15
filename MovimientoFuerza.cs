@@ -27,7 +27,7 @@ public class MovimientoFuerza : MonoBehaviour {
             movimientoProfundidad = -1f;
        
         //Calculamos la fuerza de Movimiento
-        Vector3 movimiento = new Vector3(movimientoHorizontal, 0f, movimientoPronfudidad);
+        Vector3 movimiento = new Vector3(movimientoHorizontal, 0f, movimientoPronfundidad);
 
         // Aplicamos esa fuerza al RigidBody
         GetComponent<Rigidbody>().AddForce(movimiento * velocidad);
