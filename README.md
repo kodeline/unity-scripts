@@ -26,3 +26,7 @@ Este Script fue creado para poder cambiar la direccion de movimiento de un objet
 
 Este Script fue creado para poder cargar otra escena mediante un boton que se encuentra dentro de un canvas. [Ver Codigo](ManagerEscenas.cs) 
 
+## Script SonidoPickup
+
+SonidoPick nos permite integrar un sonido cuando colisione con otro objeto y asi poder emular agarrar cosas como (pociones, monedas, etc..) para usar este script debemos primero crear una variable publica tipo AudioClip que es la que nos va a permitir agregar el sonido en el unity, tambien tener en cuenta que debemos colocarle un componente AudioSource al objeto que asignemos este script. [Ver Codigo](SonidoPickup.cs) 
+
