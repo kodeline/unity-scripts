@@ -30,3 +30,28 @@ Este Script fue creado para poder cargar otra escena mediante un boton que se en
 
 SonidoPick nos permite integrar un sonido cuando colisione con otro objeto y asi poder emular agarrar cosas como (pociones, monedas, etc..) para usar este script debemos primero crear una variable publica tipo AudioClip que es la que nos va a permitir agregar el sonido en el unity, tambien tener en cuenta que debemos colocarle un componente AudioSource al objeto que asignemos este script. [Ver Codigo](SonidoPickup.cs) 
 
+```mermaid
+classDiagram
+    note "From Duck till Zebra"
+    Animal <|-- Duck
+    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
+    }
+    class Fish{
+        -int sizeInFeet
+        -canEat()
+    }
+    class Zebra{
+        +bool is_wild
+        +run()
+    }
+```
