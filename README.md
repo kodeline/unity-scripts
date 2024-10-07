@@ -15,6 +15,26 @@ Pasos para implementar el Script RestarVida:
 - Paso 3
 - Paso 4
 
+## Script InstanciarObjetos
+
+Este Script nos permite crear copias de objetos en tiempo de ejecución, asignando una posición y rotación específicas.
+
+Pasos para Implementarlo:
+
+- Crear el Prefab arrastrando el objeto que queremos clonar a la carpeta del proyecto.
+- Arrastrar y soltar el prefab recien creado en la ventana del inspector, script donde dice objeto.
+
+
+El objeto: Esto se logra mediante la creación de un "prefab" (abreviatura de objeto prefabricado). Un prefab es en esencia una plantilla del objeto que queremos instanciar, conoceremos más detalles sobre ellos más adelante.
+La posición: Especificamos la ubicación en la que queremos colocar la instancia del objeto. Esto se logra proporcionando un vector de posición que indique los ejes (X,Y,Z)
+La rotación: Similar a la posición pero definimos la rotación de la instancia mediante un vector de rotación. fue creado para poder restarle vida a un objeto y que se destruya, teniendo en cuanta la colision con OnTriggerEnter. 
+
+Pasos para implementar el Script RestarVida:
+- Paso 1
+- Paso 2
+- Paso 3
+- Paso 4
+
 **RealWorld** para mas informacion
 
 
