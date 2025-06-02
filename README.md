@@ -9,11 +9,6 @@ Repositorio de Scripts utilizados en la clases de Unity
 
 Este Script fue creado para poder restarle vida a un objeto y que se destruya, teniendo en cuanta la colision con OnTriggerEnter. 
 
-Pasos para implementar el Script RestarVida:
-- Paso 1
-- Paso 2
-- Paso 3
-- Paso 4
 
 ## Script InstanciarObjetos
 
